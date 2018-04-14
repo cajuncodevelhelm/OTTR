@@ -1,0 +1,34 @@
+extends layout
+
+block content
+    h1 OTTR
+    p opiod trend tracking repository
+
+    h2 The Problem
+        p Tomorrow, 115 people in the U.S. will die from overdose, our issue with this fact, is that this number can be prevented. While opioid intake may be monitored by the PMP or the provider who prescribed it, many still suffer from what could become fatal addiction.
+    h3 Who will use OTTR?
+        p Patients who recieve opioid prescriptions, or with an addiction to them are the target consumers, and licensed health care providers
+    h3 How will this be achieved?
+        p The program pulls data from genetic testing of the patient, and from the given information the patient or healthcare provider has inserted (from the Prescription Monitoring Program), based on the data collected within each aspect, the program will give a probability of the patient to abuse the substance.
+        p The program may also clarify a suggested dosage or prescription if the patient has multiple prescriptions from differing healthcare providers. Utilizing data from the National Board of Certification for Medical Interpreters, the program can give information about a healthcare provider (their primary profession, credibility, previous states in which they've worked,) and compare it to the patient's ailment.
+        p &nbsp;
+    h3 Deliverables:
+        p Create an app and conjoined website meant to predict a patient's likelihood to substance abuse, in conjunction, the platform also works as a telepresent group therapy app, in which addicts or potential addicts can interact with each other via Opioid Trend Tracking Repository.
+        p &nbsp;
+    h3 Criteria and Constraints:
+        ul 
+            li Budget</li>
+            li Time</li>
+            li Availabilty (What platforms it will be available on, and areas that can utilize program.)</li>
+            li Will require internet to connect with people</li>
+            li More accurate predictions stem from genetics test</li>
+
+    h3 &nbsp;
+    h3 How:
+        p Our program asks the user of their region, diagnosed mental health, and prescription and dosage. It will pull data from the PMP, their genetics results from&nbsp;<a href="https://api.23andme.com/authorize/?redirect_uri=https://exampleapp.com/receive_code/&amp;response_type=code&amp;client_id=8c5bc3cd41932f405c80612248b7ae43&amp;scope=basic rs123">23 and Me</a>, the death from overdose rate within their region, the job and income (to determine their access to medicaid and likelihood of being prescribed), etc.&nbsp;
+
+    p Check for three genetic factors correlating with opiod abuse
+    a.button.large.secondary(href="https://api.23andme.com/authorize/?redirect_uri=#{redirect_uri}&response_type=code&client_id=#{client_id}&scope=#{scope}")
+        img.logo(src="/images/23andMe-logo.png", width="30px", height="30px")
+        span login
+

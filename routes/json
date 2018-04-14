@@ -1,0 +1,42 @@
+    
+profile_id  "6e5c1e4f069bb40f"
+headers 
+Authorization   "Bearer 0d424e45671f3219f1e5d90e0bc2d964"
+genotypes   
+data    
+0   
+id  "rs2854464"
+alternate_ids   []
+gene_names  
+0   "ACVR1B"
+accession_id    "NC_000012.11"
+start   52388890
+end 52388891
+is_genotyped    false
+is_assayed  false
+is_no_call  false
+variants    
+0   
+accession_id    "NC_000012.11"
+start   52388890
+end 52388891
+allele  "A"
+platform_labels 
+0   "ILMN_GSA_CUSTOMv5"
+1   "ILMN_OMNIEXv3_CUSTOMv3"
+dosage  null
+is_assayed  false
+is_no_call  false
+1   
+accession_id    "NC_000012.11"
+start   52388890
+end 52388891
+allele  "G"
+platform_labels 
+0   "ILMN_GSA_CUSTOMv5"
+1   "ILMN_OMNIEXv3_CUSTOMv3"
+dosage  null
+is_assayed  false
+is_no_call  false
+links   
+next    null

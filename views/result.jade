@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1 Your results 
+    each genotype, i in genotypes
+        p #{genotype.description}
+    p #{details[0]}
+    p #{details[1]}
+    p #{details[2]}
+    p.disclaimer Results tested at <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4155832/">ACVR1B on rs2854464</a>.
